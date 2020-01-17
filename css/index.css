@@ -50,6 +50,15 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -235,8 +244,18 @@ button {
     margin-top: 10px;
 }
 
+button:hover{
+    background-color: black;
+    color: white;
+}
 hr {
     margin: 0;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer nav a:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;
 }
