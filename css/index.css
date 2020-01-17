@@ -28,9 +28,37 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+nav {
+    display: flex;
+    justify-conent: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+nav a {
+    margin-left: 75px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -75,6 +103,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -101,15 +130,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +202,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*main content for css about page*/
+
+
+.im1 {
+    margin-bottom: 20px;
+}
+
+
+.p2m1c h2, .p2m1c2 h2, .p2m2cA h2, .p2m2c2 h2 {
+    margin-top: 20px;
+}
+
+.places {
+    margin-top: 20px;
+}
+.p2-main1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p2-main2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottomp2 {
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 4px 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+hr {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer nav a:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;
 }
